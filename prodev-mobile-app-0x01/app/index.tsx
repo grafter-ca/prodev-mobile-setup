@@ -28,8 +28,10 @@ const styles = StyleSheet.create({
 
 export default function Index() {
   return (
+    <>
     <View style={styles.container}>
       <Text>Entry Screen - Awesome</Text>
+    </View>
       <View>
         <Text style={styles.largeText}>
           Typescript is great if you practice more
@@ -39,6 +41,6 @@ export default function Index() {
         </Text>
         <Text style={styles.smallText}>ALX is awesome</Text>
       </View>
-    </View>
+    </>
   );
 }
